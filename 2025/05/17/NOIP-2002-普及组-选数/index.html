@@ -19,22 +19,22 @@
   <meta name="author" content="p4y1oad">
   <meta name="keywords" content="r1ng0rez wenling r00tk1t Solkatt p4y1oad">
   
-    <meta name="description" content="C++计算烷烃同分异构体数量(一) 引子 事出有因，吾今为高一学子，昨日于化学课习及有机物，恰留意到 烷烃 之 癸烷，以变幻无端之结构组合，竟得七十五种同分异构体，吾觉甚牛而逼之，然转念思之，彼言七十五种，果如是乎？”然吾性懒，弗能以草稿纸列诸般品类而逐个数之。忽又转念，可借算法以行计算，遂成此文。 smalltalk: 此文因吾水平尚浅（方入 OI 约两月且资质驽钝），故于其中借助 DeepSe">
+    <meta name="description" content="[NOIP 2002 普及组] 选数题目描述已知 $n$ 个整数 $x_1,x_2,\cdots,x_n$，以及 $1$ 个整数 $k$（$k&lt;n$）。从 $n$ 个整数中任选 $k$ 个整数相加，可分别得到一系列的和。例如当 $n&#x3D;4$，$k&#x3D;3$，$4$ 个整数分别为 $3,7,12,19$ 时，可得全部的组合与它们的和为： $3+7+12&#x3D;22$ $3+7+19&#x3D;29$ $7+12+1">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C++计算烷烃同分异构体数量(一)">
-<meta property="og:url" content="https://p4y1oad.github.io/2025/05/10/%E9%80%9A%E8%BF%87C++%E5%AE%9E%E7%8E%B0%E8%AE%A1%E7%AE%97%E7%83%B7%E7%83%83%E5%90%8C%E5%88%86%E5%BC%82%E6%9E%84%E4%BD%93%E6%95%B0%E9%87%8F/index.html">
+<meta property="og:title" content="NOIP-2002-普及组-选数">
+<meta property="og:url" content="https://p4y1oad.github.io/2025/05/17/NOIP-2002-%E6%99%AE%E5%8F%8A%E7%BB%84-%E9%80%89%E6%95%B0/index.html">
 <meta property="og:site_name" content="铃畔拾芥·闲窗集">
-<meta property="og:description" content="C++计算烷烃同分异构体数量(一) 引子 事出有因，吾今为高一学子，昨日于化学课习及有机物，恰留意到 烷烃 之 癸烷，以变幻无端之结构组合，竟得七十五种同分异构体，吾觉甚牛而逼之，然转念思之，彼言七十五种，果如是乎？”然吾性懒，弗能以草稿纸列诸般品类而逐个数之。忽又转念，可借算法以行计算，遂成此文。 smalltalk: 此文因吾水平尚浅（方入 OI 约两月且资质驽钝），故于其中借助 DeepSe">
+<meta property="og:description" content="[NOIP 2002 普及组] 选数题目描述已知 $n$ 个整数 $x_1,x_2,\cdots,x_n$，以及 $1$ 个整数 $k$（$k&lt;n$）。从 $n$ 个整数中任选 $k$ 个整数相加，可分别得到一系列的和。例如当 $n&#x3D;4$，$k&#x3D;3$，$4$ 个整数分别为 $3,7,12,19$ 时，可得全部的组合与它们的和为： $3+7+12&#x3D;22$ $3+7+19&#x3D;29$ $7+12+1">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-05-10T09:42:49.000Z">
-<meta property="article:modified_time" content="2025-05-16T11:29:22.835Z">
+<meta property="article:published_time" content="2025-05-17T01:47:45.000Z">
+<meta property="article:modified_time" content="2025-05-17T02:07:50.585Z">
 <meta property="article:author" content="p4y1oad">
 <meta property="article:tag" content="算法">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>C++计算烷烃同分异构体数量(一) - 铃畔拾芥·闲窗集</title>
+  <title>NOIP-2002-普及组-选数 - 铃畔拾芥·闲窗集</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -222,7 +222,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="C++计算烷烃同分异构体数量(一)"></span>
+            <span id="subtitle" data-typed-text="NOIP-2002-普及组-选数"></span>
           
         </div>
 
@@ -233,8 +233,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-05-10 17:42" pubdate>
-          2025年5月10日 下午
+        <time datetime="2025-05-17 09:47" pubdate>
+          2025年5月17日 上午
         </time>
       </span>
     
@@ -245,7 +245,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          907 字
+          222 字
         
       </span>
     
@@ -256,7 +256,7 @@
         
         
         
-          8 分钟
+          2 分钟
         
       </span>
     
@@ -293,137 +293,27 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">C++计算烷烃同分异构体数量(一)</h1>
+            <h1 id="seo-header">NOIP-2002-普及组-选数</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="C-计算烷烃同分异构体数量-一">C++计算烷烃同分异构体数量(一)</h2>
-<h3 id="引子">引子</h3>
-<p>事出有因，吾今为高一学子，昨日于化学课习及有机物，恰留意到 <code>烷烃</code> 之 <code>癸烷</code>，以变幻无端之结构组合，竟得七十五种同分异构体，吾觉甚牛而逼之，然转念思之，彼言七十五种，果如是乎？”然吾性懒，弗能以草稿纸列诸般品类而逐个数之。忽又转念，可借算法以行计算，遂成此文。</p>
-<h6 id="smalltalk-此文因吾水平尚浅（方入-OI-约两月且资质驽钝），故于其中借助-DeepSeek-以辅助算法之设计。">smalltalk: 此文因吾水平尚浅（方入 OI 约两月且资质驽钝），故于其中借助 DeepSeek 以辅助算法之设计。</h6>
-<h3 id="初步思考">初步思考</h3>
-<p>首先来看看我们要通过算法实现计算烷烃同分异构体数量需要哪些基础知识(部分参考来源于DeepSeek)</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">领域</th>
-<th style="text-align:left">具体知识点</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>化学</strong></td>
-<td style="text-align:left">烷烃通式、碳四价键规则、同分异构体概念。</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>编程</strong></td>
-<td style="text-align:left">输入输出、<code>map</code> 存储键值对、条件语句（<code>if-else</code>）。</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>数学</strong></td>
-<td style="text-align:left">查表法（避免复杂计算，直接引用已知结果）。</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>问题分解</strong></td>
-<td style="text-align:left">先验证输入合法性，再通过预存数据快速返回结果。</td>
-</tr>
-</tbody>
-</table>
-<p>进行进一步分析，得出的利用思路如下</p>
-<h4 id="1-化学知识利用"><strong>1. 化学知识利用</strong></h4>
-<ul>
-<li><strong>烷烃通式</strong>：C<strong>n</strong>H<strong>2n+2</strong></li>
-<li><strong>碳骨架规则</strong>：
-<ul>
-<li>每个碳原子（C）必须形成 <strong>4 个共价键</strong>（与其他 C 或 H 原子连接）</li>
-<li>氢原子（H）只能形成 <strong>1 个键</strong>，且不参与骨架构建</li>
-</ul>
-</li>
-</ul>
-<h4 id="2-简化问题"><strong>2. 简化问题</strong></h4>
-<ul>
-<li>仅计算 <strong>碳骨架的非环状结构</strong>（不考虑立体异构或复杂对称性）</li>
-<li>手动预存小规模 <strong>n</strong> 的异构体数量（n≤10），避免复杂算法</li>
-</ul>
-<h4 id="3-编程实现"><strong>3. 编程实现</strong></h4>
-<ul>
-<li><strong>输入验证</strong>：检查 <em>H</em> 是否等于 2C+2</li>
-<li><strong>查表法</strong>：直接返回预计算的异构体数量（适用于 C≤10）</li>
-<li><strong>逐步扩展</strong>：未来可升级到递归生成碳骨架</li>
-</ul>
-<h3 id="具体分析">具体分析</h3>
-<ol>
-<li>
-<p><strong>输入验证</strong></p>
-<p>我们先检查输入的<code>H</code>的数量是否满足<code>2C+2</code>，否则进行错误回显</p>
-</li>
-<li>
-<p>查表法</p>
-<ul>
-<li>使用 <code>map</code> 存储 n=1∼10<em>n</em>=1∼10 的异构体数量（刚好到癸烷）</li>
-<li>例如：
-<ul>
-<li><strong>n=4</strong> -&gt; 2种异构体（正丁烷、异丁烷）</li>
-<li><strong>n=5</strong> -&gt; 3种异构体</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>输出结果</p>
-<ul>
-<li>直接返回表中对应的异构体数量，若 n&gt;10 则提示不支持</li>
-</ul>
-</li>
-</ol>
-<p>现在是最终优化过的代码</p>
-<div class="code-wrapper"><pre><code class="hljs C++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span>
-<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span>
-<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;map&gt;</span></span>
-<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;
+                <h2 id="NOIP-2002-普及组-选数"><a href="#NOIP-2002-普及组-选数" class="headerlink" title="[NOIP 2002 普及组] 选数"></a>[NOIP 2002 普及组] 选数</h2><h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p>已知 $n$ 个整数 $x_1,x_2,\cdots,x_n$，以及 $1$ 个整数 $k$（$k&lt;n$）。从 $n$ 个整数中任选 $k$ 个整数相加，可分别得到一系列的和。例如当 $n=4$，$k=3$，$4$ 个整数分别为 $3,7,12,19$ 时，可得全部的组合与它们的和为：</p>
+<p>$3+7+12=22$</p>
+<p>$3+7+19=29$</p>
+<p>$7+12+19=38$</p>
+<p>$3+12+19=34$</p>
+<p>现在，要求你计算出和为素数共有多少种。</p>
+<p>例如上例，只有一种的和为素数：$3+7+19=29$。</p>
+<h3 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h3><p>第一行两个空格隔开的整数 $n,k$（$1 \le n \le 20$，$k&lt;n$）。</p>
+<p>第二行 $n$ 个整数，分别为 $x_1,x_2,\cdots,x_n$（$1 \le x_i \le 5\times 10^6$）。</p>
+<h3 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h3><p>输出一个整数，表示种类数。</p>
+<h3 id="输入输出样例-1"><a href="#输入输出样例-1" class="headerlink" title="输入输出样例 #1"></a>输入输出样例 #1</h3><h4 id="输入-1"><a href="#输入-1" class="headerlink" title="输入 #1"></a>输入 #1</h4><div class="code-wrapper"><pre><code class="hljs basic"><span class="hljs-symbol">4 </span><span class="hljs-number">3</span>
+<span class="hljs-symbol">3 </span><span class="hljs-number">7</span> <span class="hljs-number">12</span> <span class="hljs-number">19</span></code></pre></div>
+<h4 id="输出-1"><a href="#输出-1" class="headerlink" title="输出 #1"></a>输出 #1</h4><div class="code-wrapper"><pre><code class="hljs">1</code></pre></div>
+<h3 id="说明-提示"><a href="#说明-提示" class="headerlink" title="说明/提示"></a>说明/提示</h3><p><strong>【题目来源】</strong></p>
+<p>NOIP 2002 普及组第二题</p>
 
-<span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>&#123;
-    <span class="hljs-type">int</span> carbon, hydrogen;
-    <span class="hljs-comment">// 提示用户输入碳原子数</span>
-    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the number of carbon atoms (C): &quot;</span>);
-    <span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>,&amp;carbon);
-    
-    <span class="hljs-comment">// 提示用户输入氢原子数</span>
-    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Enter the number of hydrogen atoms (H): &quot;</span>);
-    <span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>,&amp;hydrogen);
-    
-    <span class="hljs-comment">// 验证是否为烷烃（CnH2n + 2）</span>
-    <span class="hljs-keyword">if</span> (hydrogen != <span class="hljs-number">2</span> * carbon + <span class="hljs-number">2</span>) &#123;
-        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Error: This is not an alkane (expected H = 2C + 2).\n&quot;</span>);
-        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
-    &#125;
-
-    <span class="hljs-comment">// 预计算的烷烃异构体数量（n = 1~10）</span>
-    map&lt;<span class="hljs-type">int</span>, <span class="hljs-type">int</span>&gt; isomerTable = &#123;
-        &#123;<span class="hljs-number">1</span>, <span class="hljs-number">1</span>&#125;,  <span class="hljs-comment">// CH4</span>
-        &#123;<span class="hljs-number">2</span>, <span class="hljs-number">1</span>&#125;,  <span class="hljs-comment">// C2H6</span>
-        &#123;<span class="hljs-number">3</span>, <span class="hljs-number">1</span>&#125;,  <span class="hljs-comment">// C3H8</span>
-        &#123;<span class="hljs-number">4</span>, <span class="hljs-number">2</span>&#125;,  <span class="hljs-comment">// C4H10（正丁烷、异丁烷）</span>
-        &#123;<span class="hljs-number">5</span>, <span class="hljs-number">3</span>&#125;,  <span class="hljs-comment">// C5H12</span>
-        &#123;<span class="hljs-number">6</span>, <span class="hljs-number">5</span>&#125;,  <span class="hljs-comment">// C6H14</span>
-        &#123;<span class="hljs-number">7</span>, <span class="hljs-number">9</span>&#125;,  <span class="hljs-comment">// C7H16</span>
-        &#123;<span class="hljs-number">8</span>, <span class="hljs-number">18</span>&#125;, <span class="hljs-comment">// C8H18</span>
-        &#123;<span class="hljs-number">9</span>, <span class="hljs-number">35</span>&#125;, <span class="hljs-comment">// C9H20</span>
-        &#123;<span class="hljs-number">10</span>, <span class="hljs-number">75</span>&#125; <span class="hljs-comment">// C10H22</span>
-    &#125;;
-
-    <span class="hljs-keyword">if</span> (carbon &gt;= <span class="hljs-number">1</span> &amp;&amp; carbon &lt;= <span class="hljs-number">10</span>) &#123;
-        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Number of alkane isomers for C%dH%d: %d\n&quot;</span>, carbon, hydrogen, isomerTable[carbon]);
-    &#125; 
-    <span class="hljs-keyword">else</span> &#123;
-        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;Error: Carbon count must be 1~10 (this program is for beginners).\n&quot;</span>);
-  &#125;
-  <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
-&#125;</code></pre></div>
-<p>当然，我们只能计算碳原子数量为10的烷烃，表现出我们的功能完全不够强大，我也思考了关于后续补充的一些其他想法，诸如升级递归算法、引入图论(马上把基础打完滚去学树)甚至是结合动态规划或生成函数优化计算(需学习组合数学)，后续我还会更新的 敬请期待！</p>
-<script src="https://giscus.app/client.js" data-repo="p4y1oad/p4y1oad.github.io" data-repo-id="R_kgDONzaTTQ" data-category="Announcements" data-category-id="DIC_kwDONzaTTc4Cpqn7" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async>
-</script>
                 
               </div>
             
@@ -468,8 +358,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>C++计算烷烃同分异构体数量(一)</div>
-      <div>https://p4y1oad.github.io/2025/05/10/通过C++实现计算烷烃同分异构体数量/</div>
+      <div>NOIP-2002-普及组-选数</div>
+      <div>https://p4y1oad.github.io/2025/05/17/NOIP-2002-普及组-选数/</div>
     </div>
     <div class="license-meta">
       
@@ -481,7 +371,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年5月10日</div>
+          <div>2025年5月17日</div>
         </div>
       
       
@@ -513,18 +403,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/05/17/NOIP-2002-%E6%99%AE%E5%8F%8A%E7%BB%84-%E9%80%89%E6%95%B0/" title="NOIP-2002-普及组-选数">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">NOIP-2002-普及组-选数</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2025/05/10/Learning-Note-on-Attention-is-All-You-Need/" title="Learning Note on Attention is All You Need">
-                        <span class="hidden-mobile">Learning Note on Attention is All You Need</span>
+                      <a href="/2025/05/10/%E9%80%9A%E8%BF%87C++%E5%AE%9E%E7%8E%B0%E8%AE%A1%E7%AE%97%E7%83%B7%E7%83%83%E5%90%8C%E5%88%86%E5%BC%82%E6%9E%84%E4%BD%93%E6%95%B0%E9%87%8F/" title="C++计算烷烃同分异构体数量(一)">
+                        <span class="hidden-mobile">C++计算烷烃同分异构体数量(一)</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

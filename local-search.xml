@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>NOIP-2002-普及组-选数</title>
+    <link href="/2025/05/17/NOIP-2002-%E6%99%AE%E5%8F%8A%E7%BB%84-%E9%80%89%E6%95%B0/"/>
+    <url>/2025/05/17/NOIP-2002-%E6%99%AE%E5%8F%8A%E7%BB%84-%E9%80%89%E6%95%B0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="NOIP-2002-普及组-选数"><a href="#NOIP-2002-普及组-选数" class="headerlink" title="[NOIP 2002 普及组] 选数"></a>[NOIP 2002 普及组] 选数</h2><h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p>已知 $n$ 个整数 $x_1,x_2,\cdots,x_n$，以及 $1$ 个整数 $k$（$k&lt;n$）。从 $n$ 个整数中任选 $k$ 个整数相加，可分别得到一系列的和。例如当 $n=4$，$k=3$，$4$ 个整数分别为 $3,7,12,19$ 时，可得全部的组合与它们的和为：</p><p>$3+7+12=22$</p><p>$3+7+19=29$</p><p>$7+12+19=38$</p><p>$3+12+19=34$</p><p>现在，要求你计算出和为素数共有多少种。</p><p>例如上例，只有一种的和为素数：$3+7+19=29$。</p><h3 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h3><p>第一行两个空格隔开的整数 $n,k$（$1 \le n \le 20$，$k&lt;n$）。</p><p>第二行 $n$ 个整数，分别为 $x_1,x_2,\cdots,x_n$（$1 \le x_i \le 5\times 10^6$）。</p><h3 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h3><p>输出一个整数，表示种类数。</p><h3 id="输入输出样例-1"><a href="#输入输出样例-1" class="headerlink" title="输入输出样例 #1"></a>输入输出样例 #1</h3><h4 id="输入-1"><a href="#输入-1" class="headerlink" title="输入 #1"></a>输入 #1</h4><div class="code-wrapper"><pre><code class="hljs basic"><span class="hljs-symbol">4 </span><span class="hljs-number">3</span><span class="hljs-symbol">3 </span><span class="hljs-number">7</span> <span class="hljs-number">12</span> <span class="hljs-number">19</span></code></pre></div><h4 id="输出-1"><a href="#输出-1" class="headerlink" title="输出 #1"></a>输出 #1</h4><div class="code-wrapper"><pre><code class="hljs">1</code></pre></div><h3 id="说明-提示"><a href="#说明-提示" class="headerlink" title="说明/提示"></a>说明/提示</h3><p><strong>【题目来源】</strong></p><p>NOIP 2002 普及组第二题</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>算法</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>算法</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>C++计算烷烃同分异构体数量(一)</title>
     <link href="/2025/05/10/%E9%80%9A%E8%BF%87C++%E5%AE%9E%E7%8E%B0%E8%AE%A1%E7%AE%97%E7%83%B7%E7%83%83%E5%90%8C%E5%88%86%E5%BC%82%E6%9E%84%E4%BD%93%E6%95%B0%E9%87%8F/"/>
     <url>/2025/05/10/%E9%80%9A%E8%BF%87C++%E5%AE%9E%E7%8E%B0%E8%AE%A1%E7%AE%97%E7%83%B7%E7%83%83%E5%90%8C%E5%88%86%E5%BC%82%E6%9E%84%E4%BD%93%E6%95%B0%E9%87%8F/</url>
@@ -147,9 +172,9 @@
     
     <tags>
       
-      <tag>CTF</tag>
+      <tag>Pwn</tag>
       
-      <tag>PWN</tag>
+      <tag>CTF</tag>
       
     </tags>
     
